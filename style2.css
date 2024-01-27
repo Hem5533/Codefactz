@@ -1,0 +1,45 @@
+.content
+{
+    width: 100%;
+    height: 500px;
+    background: url(image3.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    background-position: fixed;
+}
+.content{
+    
+    text-align: center;
+    padding-top: 110px;
+    
+}
+.square h1{
+    font-size: 50px;
+    color: black;
+}
+.square p{
+    font-size:25px;
+    color: black;
+    
+}
+.content button{
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 8px;
+    width: 150px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button:hover {
+    box-shadow: 0 5px 10px 0 rgba(41, 41, 41, 0.61), 0 17px 50px 0 rgba(41, 41, 41, 0.589);
+    background-color: grey;
+  }
+  

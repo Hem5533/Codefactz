@@ -1,0 +1,30 @@
+
+#quiz{
+    padding-left: 20px;
+    font-size: large;
+    border: 1px solid;
+    padding: 10px;
+    margin: 20px;
+}
+#button{
+    width: 125px;
+    background-color: red;
+    color: white;
+    height: 50px;
+    font-size: large;
+    align-items: center;
+}
+h1{
+    color: rgb(18, 52, 66);
+}
+button{
+    background-color: rgb(117, 178, 202);
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: black;
+}
+#que{
+    border-bottom: 2px solid black;
+
+}

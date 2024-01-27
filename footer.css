@@ -1,0 +1,58 @@
+.content2{
+    align-items: center;
+}
+.content2 button{
+    background-color: rgb(42, 157, 165);
+    border-radius: 10px;
+    width: 150px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.tutorial{
+    float: right;
+    margin-right: 70px;
+}
+.footer{
+    background: black;
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer li{
+    list-style-type: none;
+
+}
+#mcq{
+    float: left;
+}
+#tutorial{
+    float: left;
+    padding-left: 20px;
+}
+#contact{
+    float: right;
+    padding-right: 30px;
+}
+@media screen and (max-width: 500px) {
+    .footer{
+        font-size: 13px;
+        padding: auto;
+        height: 150px;
+        padding-left: 15px;
+    }
+    #tutorial{
+        padding-left: 10px;
+    }
+    #contact{
+        padding-right: 15px;
+    }
+    
+  }

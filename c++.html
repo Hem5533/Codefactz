@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>C++ MCQ's</title>
+    <link rel="stylesheet" type="text/css" href="c++.css">
+    <script type="text/javascript" src="c++.js"></script>
+</head>
+<body>
+<div name="quiz" id="quiz">
+    <h1 align="center">C++ Programming MCQ</h1>
+    <div id="que">
+        <p>1) What is the size of wchar_t in C++?</p>
+        <p><input type="radio" name="question1" value="a">A. 2</p>
+        <p><input type="radio" name="question1" value="b">B. 4</p>
+        <p><input type="radio" name="question1" value="c">C. 2 or 4</p>
+        <p><input type="radio" onclick="addnum()" name="question1" value="d">D. Based on the number of bits in the system</p>
+        <div>
+            <BUTTON ONCLICK="ShowAndHide1()">Answer</BUTTON>
+            <br><br>
+            <DIV ID="SectionName1" STYLE="display:none">Answer: D. Based on the number of bits in the system</DIV>
+        </div>
+   </div>
+   <div id="que">
+        <p>2) What does ‘\a’ escape code represent?</p>
+        <p><input type="radio" onclick="addnum()" name="question2" value="a">A. alert</p>
+        <p><input type="radio" name="question2" value="b">B. backslash</p>           
+        <p><input type="radio" name="question2" value="c">C. tab</p>           
+        <p><input type="radio" name="question2" value="d">D. form feed</p>
+        
+        <BUTTON ONCLICK="ShowAndHide2()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName2" STYLE="display:none">Answer: A. alert</DIV>
+    </div>
+    <div id="que">
+        <p>3) The value 132.54 can be represented using which data type?</p>
+        <p><input type="radio" onclick="addnum()" name="question3" value="a">A. double</p>
+        <p><input type="radio" name="question3" value="b">B. void</p>           
+        <p><input type="radio" name="question3" value="c">C. int</p>           
+        <p><input type="radio" name="question3" value="d">D. bool </p>
+        
+        <BUTTON ONCLICK="ShowAndHide3()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName3" STYLE="display:none">Answer: A. double</DIV>
+    </div>
+    <div id="que">
+        <p>4) Is bool a fundamental data type in C++?</p>
+        <p><input type="radio" onclick="addnum()" name="question4" value="a">A. Yes</p>
+        <p><input type="radio" name="question4" value="b">B. No, it is a typedef of unsigned char</p>           
+        <p><input type="radio" name="question4" value="c">C. No, it is an enum of {false, true}</p>           
+        <p><input type="radio" name="question4" value="d">D. No, it is expanded from macros</p>
+        
+        <BUTTON ONCLICK="ShowAndHide4()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName4" STYLE="display:none">Answer: A. Yes</DIV>
+    </div>
+
+    <div id="que">
+        <p>5) Which of the following statements are false?</p>
+        <p><input type="radio"  name="question5" value="a">A. bool can have two values and can be used to express logical expressions</p>
+        <p><input type="radio" onclick="addnum()" name="question5" value="b">B. bool cannot be used as the type of the result of the function</p>           
+        <p><input type="radio" name="question5" value="c">C. bool can be converted into integers implicitly</p>           
+        <p><input type="radio"  name="question5" value="d">D. a bool value can be used in arithmetic expressions</p>
+        
+        <BUTTON ONCLICK="ShowAndHide5()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName5" STYLE="display:none">Answer: B. bool cannot be used as the type of the result of the function</DIV>
+    </div>
+    <div id="que">
+        <p>6) In C++, what is the sign of character data type by default?</p>
+        <p><input type="radio" name="question6" value="a">A. Signed</p>
+        <p><input type="radio" name="question6" value="b">B. Unsigned</p>           
+        <p><input type="radio" onclick="addnum()" name="question6" value="c">C. Implementation dependent</p>           
+        <p><input type="radio" name="question6" value="d">D. Unsigned Implementation.</p>
+        
+        <BUTTON ONCLICK="ShowAndHide6()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName6" STYLE="display:none">Answer: C. Implementation dependent</DIV>
+    </div>
+    <div id="que">
+        <p>7) Which one of the following is a loop construct that will always be executed once?</p>
+        <p><input type="radio" name="question7" value="a">A. for</p>
+        <p><input type="radio" name="question7" value="b">B. while</p>           
+        <p><input type="radio" name="question7" value="c">C. switch</p>           
+        <p><input type="radio" onclick="addnum()" name="question7" value="d">D. do while</p>
+        
+        <BUTTON ONCLICK="ShowAndHide7()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName7" STYLE="display:none">Answer: (d) do while</DIV>
+    </div>
+    <div id="que">
+        <p>8) Which of the following is the correct identifier?</p>
+        <p><input type="radio" name="question8" value="a">A. $var_name </p>
+        <p><input type="radio"  onclick="addnum()" name="question8" value="b">B. VAR_123</p>           
+        <p><input type="radio" name="question8" value="c">C. varname@</p>           
+        <p><input type="radio" name="question8" value="d">D. None of the above</p>
+        
+        <BUTTON ONCLICK="ShowAndHide8()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName8" STYLE="display:none">Answer: B. VAR_123</DIV>
+    </div>
+    <div id="que">
+        <p>9) How many bytes does "int = D" use? </p>
+        <p><input type="radio" name="question9" value="a">A. 0</p>
+        <p><input type="radio" name="question9" value="b">B. 1</p>           
+        <p><input type="radio" onclick="addnum()" name="question9" value="c">C. 2 or 4</p>           
+        <p><input type="radio" name="question9" value="d">D. 10</p>
+        
+        <BUTTON ONCLICK="ShowAndHide9()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName9" STYLE="display:none">Answer: (c) 2 or 4</DIV>
+    </div>
+    <div id="que">
+        <p>10) Which of the following can be considered as the object of an array?</p>
+        <p><input type="radio" name="question10" value="a">A. Index of an array</p>
+        <p><input type="radio" onclick="addnum()" name="question10" value="b">B. Elements of the Array</p>           
+        <p><input type="radio" name="question10" value="c">C. Functions of the Array</p>           
+        <p><input type="radio" name="question10" value="d">D. All of the above</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: B. Elements of the Array</DIV>
+    </div>
+    <div id="que">
+        <p>11) Which of the following features is required to be supported by the programming language to become a pure object-oriented programming language?</p>
+        <p><input type="radio" name="question10" value="a">A. Encapsulation</p>
+        <p><input type="radio" name="question10" value="b">B. Inheritance</p>           
+        <p><input type="radio" name="question10" value="c">C. Polymorphism</p>           
+        <p><input type="radio" onclick="addnum()" name="question10" value="d">D. All of the above</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: D. All of the above</DIV>
+    </div>
+    <div id="que">
+        <p>12) Which of the following comment syntax is correct to create a single-line comment in the C++ program?</p>
+        <p><input type="radio"  onclick="addnum()" name="question10" value="a">A. //Comment</p>
+        <p><input type="radio" name="question10" value="b">B. /Comment/</p>           
+        <p><input type="radio" name="question10" value="c">C. Comment//</p>           
+        <p><input type="radio" name="question10" value="d">D. None of the above</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: A. //Comment</DIV>
+    </div>
+    <div id="que">
+        <p>13) C++ is a ___ type of language.</p>
+        <p><input type="radio" name="question10" value="a">A. High-level Language</p>
+        <p><input type="radio" name="question10" value="b">B. Low-level language</p>           
+        <p><input type="radio" onclick="addnum()" name="question10" value="c">C. Middle-level language</p>           
+        <p><input type="radio" name="question10" value="d">D. None of the above</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: C. Middle-level language</DIV>
+    </div>
+    <div id="que">
+        <p>14) For inserting a new line in C++ program, which one of the following statements can be used?</p>
+        <p><input type="radio" onclick="addnum()" name="question10" value="a">A. \n</p>
+        <p><input type="radio" name="question10" value="b">B. \r</p>           
+        <p><input type="radio" name="question10" value="c">C. \a</p>           
+        <p><input type="radio" name="question10" value="d">D. None of the aboive</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: A. \n </DIV>
+    </div>
+    <div  id="que">
+        <p>15) Which types of arrays are always considered as linear arrays? </p>
+        <p><input type="radio" onclick="addnum()" name="question10" value="a">A. Single-dimensional</p>
+        <p><input type="radio" name="question10" value="b">B. Multi-dimensional</p>           
+        <p><input type="radio" name="question10" value="c">C. Both A and B</p>           
+        <p><input type="radio" name="question10" value="d">D. None of the above</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: A. Single-dimensional </DIV>
+    </div>
+    <div id="que">
+        <p>16) How many types of elements can an array store? </p>
+        <p><input type="radio" onclick="addnum()" name="question10" value="a">A. Same types of elements</p>
+        <p><input type="radio" name="question10" value="b">B. Char and int type</p>           
+        <p><input type="radio" name="question10" value="c">C. Only char types</p>           
+        <p><input type="radio" name="question10" value="d">D. All of the above</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: A. Same types of elements </DIV>
+    </div>
+    <div id="que">
+        <p>17) Elements of a one-dimensional array are numbered as 0,1,2,3,4,5, and so on; these numbers are known as ____</p>
+        <p><input type="radio" name="question10" value="a">A. Subscript of Array</p>
+        <p><input type="radio" name="question10" value="b">B. Members of Array</p>           
+        <p><input type="radio" name="question10" value="c">C. Index values</p>           
+        <p><input type="radio"  onclick="addnum()" name="question10" value="d">D. Both A and C</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: D. Both A and C</DIV>
+    </div>
+    <div id="que">
+        <p>18) Which of the following statement is correct about Virtual Inheritance?</p>
+        <p><input type="radio" name="question10" value="a">A. It is a technique to ensure that a private member of a base class can be accessed</p>
+        <p><input type="radio" name="question10" value="b">B. It is a technique to optimize the multiple inheritances</p>           
+        <p><input type="radio" name="question10" value="c">C. It is a technique to avoid the multiple inheritances of the classes</p>           
+        <p><input type="radio" onclick="addnum()" name="question10" value="d">D. It is a C++ technique to avoid multiple copies of the base class into the derived or child classes</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: D. It is a C++ technique to avoid multiple copies of the base class into the derived or child classes</DIV>
+    </div>
+    <div id="que">
+        <p>19) Which of the following can be considered as the correct syntax for declaring an array of pointers of integers that has a size of 10 in C++?</p>
+        <p><input type="radio" name="question10" value="a">A. int arr = new int[10];</p>
+        <p><input type="radio" name="question10" value="b">B. int *arr = new int*[10]</p>           
+        <p><input type="radio" onclick="addnum()" name="question10" value="c">C. int **arr = new int*[10];</p>           
+        <p><input type="radio" name="question10" value="d">D. int *arr = new int[10];</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: C. int **arr = new int*[10];</DIV>
+    </div>
+    <div>
+        <p>20) What is Valarray in C++?</p>
+        <p><input type="radio" onclick="addnum()" name="question10" value="a">A. Container for efficient operations on an array</p>
+        <p><input type="radio" name="question10" value="b">B. Container for efficient printing of the array</p>           
+        <p><input type="radio" name="question10" value="c">C. Container for efficient value conversion of array </p>           
+        <p><input type="radio" name="question10" value="d">D. Container for efficient type conversion of array</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: A. Container for efficient operations on an array</DIV>
+    </div>
+    <div  align="center">
+        <p>Click on Submit button to see your score.</p>
+        <button id="button" onclick="ans()">Submit</button>
+    </div>
+
+</div>
+</body>
+</html>

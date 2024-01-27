@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>C MCQ's</title>
+    <link rel="stylesheet" type="text/css" href="c.css">
+    <script type="text/javascript" src="c.js"></script>
+</head>
+<body>
+<div name="quiz" id="quiz">
+    <h1 align="center">C Programming MCQ</h1>
+
+    <div id="que">
+        <p>1) What is the 16-bit compiler allowable range for integer constants?</p>
+        <p><input type="radio" name="question1" value="a">A. -3.4e38 to 3.4e38</p>
+        <p><input type="radio" name="question1" value="b">B. -32767 to 32768</p>
+        <p><input type="radio" name="question1" value="c">C. -32668 to 32667</p>
+        <p><input type="radio" onclick="addnum()" name="question1" value="d">D. -32768 to 32767</p>
+        <div>
+            <BUTTON ONCLICK="ShowAndHide1()">Answer</BUTTON>
+            <br><br>
+            <DIV ID="SectionName1" STYLE="display:none">Answer: D. -32768 to 32767</DIV>
+        </div>     
+   </div>
+   <div id="que">
+        <p>2) What is required in each C program? </p>
+        <p><input type="radio" onclick="addnum()" name="question2" value="a">A. The program must have at least one function.</p>
+        <p><input type="radio" name="question2" value="b">B. The program does not require any function.</p>           
+        <p><input type="radio" name="question2" value="c">C. Input data</p>           
+        <p><input type="radio" name="question2" value="d">D. Output data</p>
+        
+        <BUTTON ONCLICK="ShowAndHide2()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName2" STYLE="display:none">Answer: (a) The program must have at least one function.</DIV>
+    </div>
+    <div id="que">
+        <p>3) Which of the following comment is correct when a macro definition includes arguments?</p>
+        <p><input type="radio" onclick="addnum()" name="question3" value="a">A. The opening parenthesis should immediately follow the macro name.</p>
+        <p><input type="radio" name="question3" value="b">B. There should be at least one blank between the macro name and the opening parenthesis.</p>           
+        <p><input type="radio" name="question3" value="c">C. There should be only one blank between the macro name and the opening parenthesis.</p>           
+        <p><input type="radio" name="question3" value="d">D. All the above comments are correct.</p>
+        
+        <BUTTON ONCLICK="ShowAndHide3()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName3" STYLE="display:none">Answer: (a) The opening parenthesis should immediately follow the macro name.</DIV>
+    </div>
+    <div id="que">
+        <p>4) What is a lint?</p>
+        <p><input type="radio" name="question4" value="a">A. C compiler</p>
+        <p><input type="radio" name="question4" value="b">B. Interactive debugger</p>           
+        <p><input type="radio" onclick="addnum()" name="question4" value="c">C. Analyzing tool</p>           
+        <p><input type="radio" name="question4" value="d">D. C interpreter</p>
+        
+        <BUTTON ONCLICK="ShowAndHide4()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName4" STYLE="display:none">Answer: (c) Analyzing tool</DIV>
+    </div>
+
+    <div id="que">
+        <p>5) Why is a macro used in place of a function?</p>
+        <p><input type="radio"  name="question5" value="a">A. It reduces execution time.</p>
+        <p><input type="radio" name="question5" value="b">B. It reduces code size.</p>           
+        <p><input type="radio" name="question5" value="c">C. It increases execution time.</p>           
+        <p><input type="radio" onclick="addnum()" name="question5" value="d">D. It increases code size.</p>
+        
+        <BUTTON ONCLICK="ShowAndHide5()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName5" STYLE="display:none">Answer: (d) It reduces code size.</DIV>
+    </div>
+    <div id="que">
+        <p>6) In the C language, the constant is defined _______.</p>
+        <p><input type="radio" name="question6" value="a">A. Before main.</p>
+        <p><input type="radio" name="question6" value="b">B. After main</p>           
+        <p><input type="radio" onclick="addnum()" name="question6" value="c">C. Anywhere, but starting on a new line.</p>           
+        <p><input type="radio" name="question6" value="d">D. None of the these.</p>
+        
+        <BUTTON ONCLICK="ShowAndHide6()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName6" STYLE="display:none">Answer: (c) Anywhere, but starting on a new line.</DIV>
+    </div>
+    <div id="que">
+        <p>7) Which one of the following is a loop construct that will always be executed once?</p>
+        <p><input type="radio" name="question7" value="a">A. for</p>
+        <p><input type="radio" name="question7" value="b">B. while</p>           
+        <p><input type="radio" name="question7" value="c">C. switch</p>           
+        <p><input type="radio" onclick="addnum()" name="question7" value="d">D. do while</p>
+        
+        <BUTTON ONCLICK="ShowAndHide7()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName7" STYLE="display:none">Answer: (d) do while</DIV>
+    </div>
+    <div id="que">
+        <p>8) Directives are translated by the</p>
+        <p><input type="radio" onclick="addnum()" name="question8" value="a">A. Pre-processor</p>
+        <p><input type="radio" name="question8" value="b">B. Compiler</p>           
+        <p><input type="radio" name="question8" value="c">C. Linker</p>           
+        <p><input type="radio" name="question8" value="d">D. Editor</p>
+        
+        <BUTTON ONCLICK="ShowAndHide8()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName8" STYLE="display:none">Answer: (a) Pre-processor</DIV>
+    </div>
+    <div id="que">
+        <p>9) How many bytes does "int = D" use? </p>
+        <p><input type="radio" name="question9" value="a">A. 0</p>
+        <p><input type="radio" name="question9" value="b">B. 1</p>           
+        <p><input type="radio" onclick="addnum()" name="question9" value="c">C. 2 or 4</p>           
+        <p><input type="radio" name="question9" value="d">D. 10</p>
+        
+        <BUTTON ONCLICK="ShowAndHide9()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName9" STYLE="display:none">Answer: (c) 2 or 4</DIV>
+    </div>
+    <div id="que">
+        <p>10) What feature makes C++ so powerful?</p>
+        <p><input type="radio" name="question10" value="a">A. Easy implementation</p>
+        <p><input type="radio" name="question10" value="b">B. Reusing the old code.</p>           
+        <p><input type="radio" name="question10" value="c">C. Easy memory management</p>           
+        <p><input type="radio" onclick="addnum()" name="question10" value="d">D. All of the above</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: (d) All of the above.</DIV>
+    </div>
+    <div id="que">
+        <p>11) Which of the following is the correct syntax to send an array as a parameter to function?</p>
+        <p><input type="radio" onclick="addnum()" name="question10" value="a">A. func(&array);</p>
+        <p><input type="radio" name="question10" value="b">B. func(#array);</p>           
+        <p><input type="radio" name="question10" value="c">C. func(*array);</p>           
+        <p><input type="radio" name="question10" value="d">D. func(array[size]);</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: A. func(&array);</DIV>
+    </div>
+    <div id="que">
+        <p>12) Which of the following can never be sent by call-by-value?</p>
+        <p><input type="radio" name="question10" value="a">A. Variable</p>
+        <p><input type="radio" onclick="addnum()" name="question10" value="b">B. Array</p>           
+        <p><input type="radio" name="question10" value="c">C. Structures</p>           
+        <p><input type="radio" name="question10" value="d">D Both Array and Structures.</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: B. Array</DIV>
+    </div>
+    <div id="que">
+        <p>13) Which type of variables can have the same name in a different function?</p>
+        <p><input type="radio" name="question10" value="a">A. Global variables</p>
+        <p><input type="radio" name="question10" value="b">B. Static variables</p>           
+        <p><input type="radio" name="question10" value="c">C. Function arguments</p>           
+        <p><input type="radio" onclick="addnum()" name="question10" value="d">D. Both static variables and Function arguments</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: D. Both static variables and Function arguments</DIV>
+    </div>
+    <div id="que">
+        <p>14) Arguments that take input by user before running a program are called?</p>
+        <p><input type="radio" name="question10" value="a">A. Main function arguments</p>
+        <p><input type="radio" name="question10" value="b">B. Main arguments</p>           
+        <p><input type="radio" onclick="addnum()" name="question10" value="c">C. Command-Line arguments</p>           
+        <p><input type="radio" name="question10" value="d">D. Parameterized arguments</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: C. Command-Line arguments</DIV>
+    </div>
+    <div id="que">
+        <p> 15) What are the elements present in the array of the following C code?
+
+            int array[5] = {5};</p>
+        <p><input type="radio" name="question10" value="a">A. 5, 5, 5, 5, 5</p>
+        <p><input type="radio" onclick="addnum()" name="question10" value="b">B. 5, 0, 0, 0, 0</p>           
+        <p><input type="radio" name="question10" value="c">C. 5, (garbage), (garbage), (garbage), (garbage)</p>           
+        <p><input type="radio" name="question10" value="d">D.  (garbage), (garbage), (garbage), (garbage), 5</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: B. 5, 0, 0, 0, 0</DIV>
+    </div>
+    <div id="que">
+        <p>16) Comment on an array of the void data type</p>
+        <p><input type="radio" name="question10" value="a">A. It can store any data-type</p>
+        <p><input type="radio" name="question10" value="b">B. It only stores element of similar data type to first element</p>           
+        <p><input type="radio" name="question10" value="c">C. It acquires the data type with the highest precision in it</p>           
+        <p><input type="radio" onclick="addnum()" name="question10" value="d">D. You cannot have an array of void data type</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: D. You cannot have an array of void data type</DIV>
+    </div>
+    <div id="que">
+        <p>17) What will be the output of the following C code?<br>
+            <br>
+    
+            int main()<br>
+    
+            {<br>
+    
+                int ary[4] = {1, 2, 3, 4};<br>
+    
+                int p[4];<br>
+    
+                p = ary;<br>
+    
+                printf("%d\n", p[1]);<br>
+    
+            }
+        </p>
+        <p><input type="radio" name="question10" value="a">A. 1</p>
+        <p><input type="radio" onclick="addnum()" name="question10" value="b">B. Compile time error</p>           
+        <p><input type="radio" name="question10" value="c">C. Undefined behaviour</p>           
+        <p><input type="radio" name="question10" value="d">D. 2</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: B. Compile time erro </DIV>
+    </div>
+    <div id="que">
+        <p>18) What is the size of *ptr in a 32-bit machine (Assuming initialization as int *ptr = 10;)?</p>
+        <p><input type="radio" name="question10" value="a">A. 1</p>
+        <p><input type="radio" name="question10" value="b">B. 2</p>           
+        <p><input type="radio"  onclick="addnum()" name="question10" value="c">C. 4</p>           
+        <p><input type="radio" name="question10" value="d">D. 8</p>
+        
+        <BUTTON ONCLICK="ShowAndHide10()">Answer</BUTTON>
+        <br><br>
+        <DIV ID="SectionName10" STYLE="display:none">Answer: C. 4</DIV>
+    </div>
+
+    <div  align="center">
+        <p>Click on Submit button to see your score.</p>
+        <button id="button" onclick="ans()">Submit</button>
+    </div>
+</div>
+</body>
+</html>
